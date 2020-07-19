@@ -1,4 +1,4 @@
-module github.com/shoogoome/mutils
+module "github.com/shoogoome/mutils"
 
 go 1.13
 
