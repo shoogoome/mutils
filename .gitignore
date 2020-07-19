@@ -1,0 +1,8 @@
+.idea
+/bin
+/data
+/vendor
+main
+go.sum
+/test
+go_build_main_go
