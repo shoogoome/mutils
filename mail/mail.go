@@ -11,7 +11,7 @@ func Send(host, username, password, token string, target ...string) error {
 	m.SetHeader("From", username)
 	m.SetHeader("To", target...)
 
-	m.SetHeader("Subject", "捣蒜官方邮件")
+	m.SetHeader("Subject", "xx官方邮件")
 	m.SetBody("text/html", generateBody(token))
 	d := gomail.NewDialer(
 		host, 465,
